@@ -35,7 +35,7 @@ class KaikasPage extends Component {
         var reg = /(.*?)\.(jpg|jpeg|png|webp)$/;
         if (index < 5 && json.image.match(reg))
         {
-          console.log('hey ', json.image, index.toString())
+          // console.log(json.image, index.toString())
           unityContext.send("Plane"+index.toString(), "updateUrl", json.image)
           index += 1
         }
