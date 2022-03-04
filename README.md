@@ -8,9 +8,14 @@ Once you log in with your Kaikas wallet, the game screen shows max 5 NFT images 
 1. Open terminal
 2. Clone the repo by running `git clone https://github.com/Yeonju-Kim/NFT-Gallery.git`
 3. `cd kaikas-tutorial`
-4. Run `npm install` to install node packages
-5. Run `npm run local`
-6. App should be running on https://localhost:8888
+4. Write `.env` file in configs folder. (https://docs.klaytnapi.com/undefined/get-ready#getting-started-getready-key)
+```
+ACCESS_KEY_ID={YourAccessKeyID}
+SECRET_ACCESS_KEY={YourSecretAccessKey}
+```
+5. Run `npm install` to install node packages
+6. Run `npm run local`
+7. App should be running on https://localhost:8888
 
 #### Builds the app for production
 1. Run `npm run build` to build app
