@@ -21,3 +21,6 @@ SECRET_ACCESS_KEY={YourSecretAccessKey}
 1. Run `npm run build` to build app
 2. Run `npm start`
 3. App should be running on https://localhost:5555
+
+### 3) Control Movement
+Move the view around using the mouse, the WASD keys to move left/right/forward/backward. 
