@@ -22,5 +22,5 @@ SECRET_ACCESS_KEY={YourSecretAccessKey}
 2. Run `npm start`
 3. App should be running on https://localhost:5555
 
-### 3) Control Movement
+### 3) Move Player in the Game Scene 
 Move the view around using the mouse, the WASD keys to move left/right/forward/backward. 
