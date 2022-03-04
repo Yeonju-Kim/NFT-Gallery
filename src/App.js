@@ -24,9 +24,7 @@ function App() {
   }
 
   return (
-    <div id= "unity" className="wrapper" > 
-      <h1>NFT Gallery </h1>
-      <p> This Unity game shows 5 NFTs owned by your KAIKAS wallet account.</p>
+    <div id= "unity" className="wrapper" >
       <div className="unity-footer">
         <div className="unity-webgl-logo"></div>
         <button className="unity-fullscreen-button" onClick={handleClick}></button>
